@@ -1,0 +1,14 @@
+{
+  "base-setup": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": { "path": "assets/base-setup/v1.0.0" }
+    }
+  },
+  "button": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": { "path": "assets/button/v1.0.0" }
+    }
+  }
+}
