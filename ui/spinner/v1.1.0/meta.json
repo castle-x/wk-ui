@@ -1,0 +1,12 @@
+{
+  "name": "spinner",
+  "version": "1.1.0",
+  "category": "ui",
+  "description": "Spinner with CVA variants",
+  "deps": [
+    "class-variance-authority"
+  ],
+  "files": [
+    "spinner.tsx"
+  ]
+}
