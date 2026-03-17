@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "data-table",
+  "version": "1.0.0",
+  "category": "component",
+  "description": "Data table with sorting, filtering, and pagination.",
+  "deps": ["@tanstack/react-table"],
+  "peerDeps": ["ui/spinner"],
+  "files": ["data-table.tsx"]
+}

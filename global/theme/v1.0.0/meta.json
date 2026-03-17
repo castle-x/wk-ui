@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "theme",
+  "version": "1.0.0",
+  "category": "global",
+  "description": "OKLCH design tokens and Tailwind theme configuration.",
+  "dest": "site/src/app/styles",
+  "deps": [],
+  "files": ["globals.css"]
+}

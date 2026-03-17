@@ -1,0 +1,9 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "spinner",
+  "version": "1.0.0",
+  "category": "ui",
+  "description": "Animated loading spinner with size variants.",
+  "deps": [],
+  "files": ["spinner.tsx"]
+}

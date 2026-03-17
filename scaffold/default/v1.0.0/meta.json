@@ -1,7 +1,11 @@
 {
-  "name": "base-setup",
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "default",
   "version": "1.0.0",
+  "category": "scaffold",
+  "description": "Minimal React + Tailwind + Vite scaffold.",
   "dest": "site",
+  "deps": [],
   "files": [
     "embed.go",
     "package.json",
@@ -9,7 +13,6 @@
     "tsconfig.json",
     "biome.json",
     "index.html",
-    ".gitignore",
     "src/app/main.tsx",
     "src/app/routes.tsx",
     "src/app/providers.tsx",

@@ -1,6 +1,0 @@
-{
-  "name": "button",
-  "version": "1.0.0",
-  "deps": ["@radix-ui/react-slot"],
-  "files": ["button.tsx"]
-}

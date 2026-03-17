@@ -1,14 +1,36 @@
 {
-  "base-setup": {
+  "$schema": "https://gve.dev/schema/registry.json",
+  "components/data-table": {
     "latest": "1.0.0",
     "versions": {
-      "1.0.0": { "path": "assets/base-setup/v1.0.0" }
+      "1.0.0": {
+        "path": "components/data-table/v1.0.0"
+      }
     }
   },
-  "button": {
+  "global/theme": {
     "latest": "1.0.0",
     "versions": {
-      "1.0.0": { "path": "assets/button/v1.0.0" }
+      "1.0.0": {
+        "path": "global/theme/v1.0.0"
+      }
     }
-  }
+  },
+  "scaffold/default": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "scaffold/default/v1.0.0"
+      }
+    }
+  },
+  "ui/spinner": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "ui/spinner/v1.0.0"
+      }
+    }
+  },
+  "version": "2"
 }
