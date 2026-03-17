@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "locale-switcher",
+  "version": "1.0.0",
+  "category": "component",
+  "description": "Locale switcher dropdown for language selection.",
+  "deps": ["lucide-react"],
+  "peerDeps": ["ui/use-locale"],
+  "files": ["locale-switcher.tsx"]
+}

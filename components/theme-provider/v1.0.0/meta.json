@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "theme-provider",
+  "version": "1.0.0",
+  "category": "component",
+  "description": "Theme provider with next-themes integration and color theme sync.",
+  "deps": ["next-themes"],
+  "peerDeps": ["ui/use-theme"],
+  "files": ["theme-provider.tsx"]
+}

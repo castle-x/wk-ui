@@ -1,0 +1,9 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "use-api-error",
+  "version": "1.0.0",
+  "category": "ui",
+  "description": "API error state management hook with zustand.",
+  "deps": ["zustand"],
+  "files": ["use-api-error.tsx"]
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "mode-toggle",
+  "version": "1.0.0",
+  "category": "component",
+  "description": "Theme mode toggle dropdown with light/dark/system options.",
+  "deps": ["lucide-react", "next-themes", "react-i18next"],
+  "peerDeps": [],
+  "files": ["mode-toggle.tsx"]
+}

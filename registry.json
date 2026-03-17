@@ -1,5 +1,21 @@
 {
   "$schema": "https://gve.dev/schema/registry.json",
+  "components/api-error-dialog": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "components/api-error-dialog/v1.0.0"
+      }
+    }
+  },
+  "components/color-theme-selector": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "components/color-theme-selector/v1.0.0"
+      }
+    }
+  },
   "components/data-table": {
     "latest": "1.1.0",
     "versions": {
@@ -8,6 +24,38 @@
       },
       "1.1.0": {
         "path": "components/data-table/v1.1.0"
+      }
+    }
+  },
+  "components/locale-switcher": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "components/locale-switcher/v1.0.0"
+      }
+    }
+  },
+  "components/mode-toggle": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "components/mode-toggle/v1.0.0"
+      }
+    }
+  },
+  "components/settings-dropdown": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "components/settings-dropdown/v1.0.0"
+      }
+    }
+  },
+  "components/theme-provider": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "components/theme-provider/v1.0.0"
       }
     }
   },
@@ -43,6 +91,30 @@
       },
       "1.1.0": {
         "path": "ui/spinner/v1.1.0"
+      }
+    }
+  },
+  "ui/use-api-error": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "ui/use-api-error/v1.0.0"
+      }
+    }
+  },
+  "ui/use-locale": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "ui/use-locale/v1.0.0"
+      }
+    }
+  },
+  "ui/use-theme": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "ui/use-theme/v1.0.0"
       }
     }
   },

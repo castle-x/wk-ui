@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "color-theme-selector",
+  "version": "1.0.0",
+  "category": "component",
+  "description": "Color theme selector dropdown with accent and base color options.",
+  "deps": ["lucide-react", "react-i18next"],
+  "peerDeps": ["ui/use-theme"],
+  "files": ["color-theme-selector.tsx"]
+}

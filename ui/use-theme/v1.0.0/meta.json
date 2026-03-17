@@ -1,0 +1,9 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "use-theme",
+  "version": "1.0.0",
+  "category": "ui",
+  "description": "Color theme management hook with zustand persist.",
+  "deps": ["zustand"],
+  "files": ["use-theme.tsx"]
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "settings-dropdown",
+  "version": "1.0.0",
+  "category": "component",
+  "description": "Settings dropdown with language, theme mode, and color theme options.",
+  "deps": ["lucide-react", "next-themes", "react-i18next"],
+  "peerDeps": ["ui/use-locale", "ui/use-theme"],
+  "files": ["settings-dropdown.tsx"]
+}
