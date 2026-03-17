@@ -1,0 +1,35 @@
+{
+  "mode": {
+    "toggle": "切换主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统"
+  },
+  "accent": {
+    "label": "品牌色",
+    "neutral": "默认",
+    "blue": "蓝色",
+    "green": "绿色",
+    "orange": "橙色",
+    "red": "红色",
+    "rose": "玫瑰",
+    "violet": "紫罗兰",
+    "purple": "紫色",
+    "amber": "琥珀"
+  },
+  "base": {
+    "label": "底色",
+    "neutral": "Neutral",
+    "stone": "Stone",
+    "zinc": "Zinc",
+    "mauve": "Mauve"
+  },
+  "selector": {
+    "title": "选择配色"
+  },
+  "dropdown": {
+    "title": "设置",
+    "language": "语言",
+    "theme": "主题"
+  }
+}

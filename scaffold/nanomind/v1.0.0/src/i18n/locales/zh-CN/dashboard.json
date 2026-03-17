@@ -1,0 +1,15 @@
+{
+  "user": {
+    "fallback": "用户",
+    "profile": "个人信息"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于"
+  },
+  "pages": {
+    "home": {
+      "description": "欢迎使用 {{name}}"
+    }
+  }
+}

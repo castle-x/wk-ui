@@ -1,0 +1,15 @@
+{
+  "user": {
+    "fallback": "User",
+    "profile": "Profile"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "pages": {
+    "home": {
+      "description": "Welcome to {{name}}"
+    }
+  }
+}
