@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import meta from "../../../meta.json";
+import app from "../../../app.json";
 import { i18n } from "@/i18n";
 
 export const SUPPORTED_LOCALES = ["zh-CN", "en"] as const;
@@ -18,7 +18,7 @@ export const useLocale = create<LocaleState>()(
       locale: "zh-CN",
       setLocale: (locale) => set({ locale }),
     }),
-    { name: `${meta.name}-locale` },
+    { name: `${app.name}-locale` },
   ),
 );
 

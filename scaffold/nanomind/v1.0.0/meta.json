@@ -16,6 +16,7 @@
     "components/api-error-dialog"
   ],
   "files": [
+    "app.json",
     "embed.go",
     "package.json",
     "vite.config.ts",

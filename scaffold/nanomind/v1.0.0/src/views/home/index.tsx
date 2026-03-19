@@ -1,6 +1,6 @@
 import { HomeIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import meta from "../../../meta.json";
+import app from "../../../app.json";
 
 export function HomePage() {
   const { t } = useTranslation("dashboard");
@@ -14,7 +14,7 @@ export function HomePage() {
             <h2 className="text-xl font-semibold">{t("nav.home")}</h2>
           </div>
           <p className="mt-4 text-muted-foreground">
-            {t("pages.home.description", { name: meta.displayName })}
+            {t("pages.home.description", { name: app.displayName })}
           </p>
         </div>
       </div>

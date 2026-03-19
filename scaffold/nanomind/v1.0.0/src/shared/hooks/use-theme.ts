@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import meta from "../../../meta.json";
+import app from "../../../app.json";
 
 const ACCENT_COLORS = [
   "neutral",
@@ -64,7 +64,7 @@ const useColorTheme = create<ColorThemeState>()(
       setAccentColor: (color) => set({ accentColor: color }),
       setBaseColor: (color) => set({ baseColor: color }),
     }),
-    { name: `${meta.name}-color-theme` },
+    { name: `${app.name}-color-theme` },
   ),
 );
 

@@ -1,7 +1,7 @@
 import { CommandIcon } from "lucide-react";
 import type * as React from "react";
 import { Link } from "react-router";
-import meta from "../../../../meta.json";
+import app from "../../../../app.json";
 import {
   Sidebar,
   SidebarContent,
@@ -31,7 +31,7 @@ function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <Link to="/">
                 <CommandIcon className="size-5!" />
-                <span className="text-base font-semibold">{meta.displayName}</span>
+                <span className="text-base font-semibold">{app.displayName}</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
