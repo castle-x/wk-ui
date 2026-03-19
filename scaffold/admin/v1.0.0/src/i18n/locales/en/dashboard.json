@@ -4,8 +4,14 @@
     "profile": "Profile"
   },
   "nav": {
+    "group_main": "Main",
+    "group_management": "Management",
     "home": "Home",
-    "about": "About"
+    "analytics": "Analytics",
+    "projects": "Projects",
+    "team": "Team",
+    "overview": "Overview",
+    "settings": "Settings"
   },
   "pages": {
     "home": {

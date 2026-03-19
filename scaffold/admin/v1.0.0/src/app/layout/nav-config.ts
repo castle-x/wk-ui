@@ -1,5 +1,12 @@
 import type { LucideIcon } from "lucide-react";
-import { HomeIcon, InfoIcon } from "lucide-react";
+import {
+  BarChart3Icon,
+  FolderIcon,
+  HomeIcon,
+  LayoutGridIcon,
+  SettingsIcon,
+  UsersIcon,
+} from "lucide-react";
 
 // ---------------------------------------------------------------------------
 // NavItem type system
@@ -47,9 +54,45 @@ const navSections: NavSection[] = [
   // @modify: main navigation section
   {
     key: "main",
+    label: "nav.group_main",
     items: [
       { type: "link", key: "home", icon: HomeIcon, titleKey: "nav.home", path: "home" },
-      { type: "link", key: "about", icon: InfoIcon, titleKey: "nav.about", path: "about" },
+      {
+        type: "link",
+        key: "analytics",
+        icon: BarChart3Icon,
+        titleKey: "nav.analytics",
+        path: "analytics",
+      },
+      {
+        type: "link",
+        key: "projects",
+        icon: FolderIcon,
+        titleKey: "nav.projects",
+        path: "projects",
+      },
+      { type: "link", key: "team", icon: UsersIcon, titleKey: "nav.team", path: "team" },
+    ],
+  },
+  // @modify: management section
+  {
+    key: "management",
+    label: "nav.group_management",
+    items: [
+      {
+        type: "link",
+        key: "overview",
+        icon: LayoutGridIcon,
+        titleKey: "nav.overview",
+        path: "overview",
+      },
+      {
+        type: "link",
+        key: "settings",
+        icon: SettingsIcon,
+        titleKey: "nav.settings",
+        path: "settings",
+      },
     ],
   },
 ];

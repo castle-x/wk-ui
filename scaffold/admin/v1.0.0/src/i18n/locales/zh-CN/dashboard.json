@@ -4,8 +4,14 @@
     "profile": "个人信息"
   },
   "nav": {
+    "group_main": "主导航",
+    "group_management": "管理",
     "home": "首页",
-    "about": "关于"
+    "analytics": "数据分析",
+    "projects": "项目",
+    "team": "团队",
+    "overview": "概览",
+    "settings": "设置"
   },
   "pages": {
     "home": {
