@@ -670,3 +670,17 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--muted-foreground);
 }
+
+/* ============================================
+   Sidebar: non-default accent themes use text color only
+   for active items (no background highlight).
+   Default (neutral) keeps the original hover background
+   since foreground colors are too similar to distinguish.
+   ============================================ */
+[data-accent] [data-slot="sidebar-menu-button"][data-active="true"] {
+  background: transparent;
+}
+
+[data-accent] [data-slot="sidebar-menu-button"][data-active="true"]:hover {
+  background: transparent;
+}

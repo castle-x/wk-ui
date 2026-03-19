@@ -75,11 +75,11 @@
       }
     }
   },
-  "scaffold/nanomind": {
+  "scaffold/admin": {
     "latest": "1.0.0",
     "versions": {
       "1.0.0": {
-        "path": "scaffold/nanomind/v1.0.0"
+        "path": "scaffold/admin/v1.0.0"
       }
     }
   },
