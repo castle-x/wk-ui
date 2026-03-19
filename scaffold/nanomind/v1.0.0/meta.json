@@ -6,6 +6,7 @@
   "description": "NanoMind full-stack scaffold with React + Tailwind + Vite + i18n + sidebar layout.",
   "dest": "site",
   "deps": [],
+  "shadcnDeps": ["avatar", "button", "dialog", "dropdown-menu", "separator", "sidebar", "sonner", "tabs", "tooltip"],
   "defaultAssets": [
     "components/theme-provider",
     "components/mode-toggle",
