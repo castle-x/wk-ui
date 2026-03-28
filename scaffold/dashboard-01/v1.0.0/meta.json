@@ -1,9 +1,9 @@
 {
   "$schema": "https://gve.dev/schema/meta.json",
-  "name": "admin",
+  "name": "dashboard-01",
   "version": "1.0.0",
   "category": "scaffold",
-  "description": "Admin backend scaffold with React + Tailwind + Vite + i18n + sidebar layout.",
+  "description": "Dashboard scaffold with React + Tailwind + Vite + i18n + sidebar layout.",
   "dest": "site",
   "deps": [],
   "shadcnDeps": ["avatar", "button", "dropdown-menu", "separator", "sidebar", "sonner", "tooltip"],
