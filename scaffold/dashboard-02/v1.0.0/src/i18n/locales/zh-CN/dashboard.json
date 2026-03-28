@@ -1,0 +1,26 @@
+{
+  "user": {
+    "fallback": "用户",
+    "profile": "个人信息",
+    "logout": "退出登录"
+  },
+  "nav": {
+    "home": "Home",
+    "settings": "设置"
+  },
+  "pages": {
+    "home": {
+      "description": "欢迎使用 {{name}}，这是你的仪表盘首页。",
+      "sayHello": {
+        "title": "Say Hello API",
+        "description": "通过发送问候请求来测试 API 连接。",
+        "button": "Say Hello",
+        "placeholder": "点击按钮测试 API"
+      }
+    },
+    "settings": {
+      "title": "设置",
+      "description": "应用设置功能即将推出。"
+    }
+  }
+}

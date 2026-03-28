@@ -1,9 +1,16 @@
 {
   "$schema": "https://gve.dev/schema/meta.json",
+<<<<<<<< HEAD:scaffold/admin/v1.0.0/meta.json
   "name": "admin",
   "version": "1.0.0",
   "category": "scaffold",
   "description": "Admin backend scaffold with React + Tailwind + Vite + i18n + sidebar layout.",
+========
+  "name": "dashboard-02",
+  "version": "1.0.0",
+  "category": "scaffold",
+  "description": "Dashboard scaffold with React + Tailwind + Vite + i18n + sidebar layout (Hugeicons, icon collapsible, motion animations, Two-Layer Color Architecture).",
+>>>>>>>> 3698046 (feat(scaffold): rename nanomind to dashboard-01 and add dashboard-02 scaffold):scaffold/dashboard-02/v1.0.0/meta.json
   "dest": "site",
   "deps": [],
   "shadcnDeps": ["avatar", "button", "dropdown-menu", "separator", "sidebar", "sonner", "tooltip"],

@@ -83,6 +83,14 @@
       }
     }
   },
+  "scaffold/dashboard-02": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "scaffold/dashboard-02/v1.0.0"
+      }
+    }
+  },
   "ui/spinner": {
     "latest": "1.1.0",
     "versions": {
