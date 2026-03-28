@@ -1,0 +1,9 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "use-theme",
+  "version": "2.0.0",
+  "category": "ui",
+  "description": "Color theme management hook with zustand persist. Two-Layer Color Architecture with palette swatches and glass mode.",
+  "deps": ["zustand"],
+  "files": ["use-theme.tsx"]
+}

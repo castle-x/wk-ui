@@ -1,0 +1,9 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "use-locale",
+  "version": "2.0.0",
+  "category": "ui",
+  "description": "Locale management hook with zustand persist and i18next sync.",
+  "deps": ["zustand", "react-i18next"],
+  "files": ["use-locale.tsx"]
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "api-error-dialog",
+  "version": "1.1.0",
+  "category": "component",
+  "description": "API error dialog for displaying detailed error information.",
+  "deps": ["react-i18next"],
+  "peerDeps": ["ui/use-api-error"],
+  "files": ["api-error-dialog.tsx"]
+}

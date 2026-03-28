@@ -1,10 +1,13 @@
 {
   "$schema": "https://gve.dev/schema/registry.json",
   "components/api-error-dialog": {
-    "latest": "1.0.0",
+    "latest": "1.1.0",
     "versions": {
       "1.0.0": {
         "path": "components/api-error-dialog/v1.0.0"
+      },
+      "1.1.0": {
+        "path": "components/api-error-dialog/v1.1.0"
       }
     }
   },
@@ -28,18 +31,24 @@
     }
   },
   "components/locale-switcher": {
-    "latest": "1.0.0",
+    "latest": "2.0.0",
     "versions": {
       "1.0.0": {
         "path": "components/locale-switcher/v1.0.0"
+      },
+      "2.0.0": {
+        "path": "components/locale-switcher/v2.0.0"
       }
     }
   },
   "components/mode-toggle": {
-    "latest": "1.0.0",
+    "latest": "2.0.0",
     "versions": {
       "1.0.0": {
         "path": "components/mode-toggle/v1.0.0"
+      },
+      "2.0.0": {
+        "path": "components/mode-toggle/v2.0.0"
       }
     }
   },
@@ -103,26 +112,35 @@
     }
   },
   "ui/use-api-error": {
-    "latest": "1.0.0",
+    "latest": "1.1.0",
     "versions": {
       "1.0.0": {
         "path": "ui/use-api-error/v1.0.0"
+      },
+      "1.1.0": {
+        "path": "ui/use-api-error/v1.1.0"
       }
     }
   },
   "ui/use-locale": {
-    "latest": "1.0.0",
+    "latest": "2.0.0",
     "versions": {
       "1.0.0": {
         "path": "ui/use-locale/v1.0.0"
+      },
+      "2.0.0": {
+        "path": "ui/use-locale/v2.0.0"
       }
     }
   },
   "ui/use-theme": {
-    "latest": "1.0.0",
+    "latest": "2.0.0",
     "versions": {
       "1.0.0": {
         "path": "ui/use-theme/v1.0.0"
+      },
+      "2.0.0": {
+        "path": "ui/use-theme/v2.0.0"
       }
     }
   },

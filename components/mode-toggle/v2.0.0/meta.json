@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gve.dev/schema/meta.json",
+  "name": "mode-toggle",
+  "version": "2.0.0",
+  "category": "component",
+  "description": "Theme mode toggle dropdown with light/dark/system options (Hugeicons).",
+  "deps": ["@hugeicons/core-free-icons", "@hugeicons/react", "next-themes", "react-i18next"],
+  "peerDeps": [],
+  "files": ["mode-toggle.tsx"]
+}
