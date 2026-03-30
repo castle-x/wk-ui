@@ -28,7 +28,7 @@ const SIDEBAR_WIDTH = "14rem";
 const SIDEBAR_WIDTH_MOBILE = "18rem";
 // @modify: 2.375rem(38px) 使折叠态 inset container 总宽 calc(38+16+2)=56px，图标中心 28px 恰好居中
 const SIDEBAR_WIDTH_ICON = "2.375rem";
-const SIDEBAR_KEYBOARD_SHORTCUT = "b";
+// @modify: 移除 Ctrl+B 快捷键，与编辑器加粗冲突
 
 type SidebarContextProps = {
   state: "expanded" | "collapsed";
@@ -91,18 +91,7 @@ function SidebarProvider({
     return isMobile ? setOpenMobile((open) => !open) : setOpen((open) => !open);
   }, [isMobile, setOpen, setOpenMobile]);
 
-  // Adds a keyboard shortcut to toggle the sidebar.
-  React.useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === SIDEBAR_KEYBOARD_SHORTCUT && (event.metaKey || event.ctrlKey)) {
-        event.preventDefault();
-        toggleSidebar();
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [toggleSidebar]);
+  // @modify: 移除了 Ctrl+B 侧边栏切换快捷键（与编辑器加粗冲突）
 
   // We add a state so that we can do data-state="expanded" or "collapsed".
   // This makes it easier to style the sidebar with Tailwind classes.
