@@ -6,5 +6,6 @@
   "description": "Color theme selector dropdown with accent and base color options.",
   "deps": ["lucide-react", "react-i18next"],
   "peerDeps": ["ui/use-theme"],
+  "shadcnDeps": ["button", "dropdown-menu", "tooltip"],
   "files": ["color-theme-selector.tsx"]
 }

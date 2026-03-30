@@ -6,5 +6,6 @@
   "description": "Locale switcher dropdown for language selection (Hugeicons).",
   "deps": ["@hugeicons/core-free-icons", "@hugeicons/react"],
   "peerDeps": ["ui/use-locale"],
+  "shadcnDeps": ["button", "dropdown-menu"],
   "files": ["locale-switcher.tsx"]
 }

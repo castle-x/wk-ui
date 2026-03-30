@@ -6,5 +6,6 @@
   "description": "Settings dropdown with language, theme mode, and color theme options.",
   "deps": ["lucide-react", "next-themes", "react-i18next"],
   "peerDeps": ["ui/use-locale", "ui/use-theme"],
+  "shadcnDeps": ["button", "dropdown-menu", "tabs", "tooltip"],
   "files": ["settings-dropdown.tsx"]
 }

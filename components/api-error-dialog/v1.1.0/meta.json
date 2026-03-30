@@ -6,5 +6,6 @@
   "description": "API error dialog for displaying detailed error information.",
   "deps": ["react-i18next"],
   "peerDeps": ["ui/use-api-error"],
+  "shadcnDeps": ["button", "dialog"],
   "files": ["api-error-dialog.tsx"]
 }

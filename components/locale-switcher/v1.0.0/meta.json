@@ -6,5 +6,6 @@
   "description": "Locale switcher dropdown for language selection.",
   "deps": ["lucide-react"],
   "peerDeps": ["ui/use-locale"],
+  "shadcnDeps": ["button", "dropdown-menu"],
   "files": ["locale-switcher.tsx"]
 }

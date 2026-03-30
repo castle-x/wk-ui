@@ -6,5 +6,6 @@
   "description": "Theme mode toggle dropdown with light/dark/system options.",
   "deps": ["lucide-react", "next-themes", "react-i18next"],
   "peerDeps": [],
+  "shadcnDeps": ["button", "dropdown-menu"],
   "files": ["mode-toggle.tsx"]
 }
