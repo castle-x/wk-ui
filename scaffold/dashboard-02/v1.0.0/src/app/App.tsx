@@ -15,7 +15,12 @@ export function App() {
           >
             <Route
               index
-              element={<HomePage />}
+              element={
+                <Navigate
+                  to="home"
+                  replace
+                />
+              }
             />
             <Route
               path="home"
