@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { Rocket01Icon, ArrowRight01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { Button } from "@/shared/shadcn/button";
+import appMeta from "../../../app.json";
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // SayHello API Example
@@ -89,7 +90,7 @@ function HomePage() {
     <div className="flex flex-col gap-4 px-4 py-4 md:gap-6 md:py-6 lg:px-6">
       <div>
         <h1 className="text-2xl font-bold tracking-tight">{t("pages.home.title")}</h1>
-        <p className="text-muted-foreground">{t("pages.home.description")}</p>
+        <p className="text-muted-foreground">{t("pages.home.description", { name: appMeta.displayName })}</p>
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
