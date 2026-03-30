@@ -55,7 +55,6 @@
     "src/shared/wk/components/.gitkeep",
     "src/shared/wk/ui/.gitkeep",
     "src/views/home/index.tsx",
-    "src/views/settings/index.tsx",
     "src/api/README.md"
   ]
 }
