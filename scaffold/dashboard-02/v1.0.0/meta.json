@@ -6,7 +6,7 @@
   "description": "Dashboard scaffold with React + Tailwind + Vite + i18n + sidebar layout (Hugeicons, icon collapsible, motion animations, Two-Layer Color Architecture).",
   "dest": "site",
   "deps": [],
-  "shadcnDeps": ["avatar", "button", "dropdown-menu", "separator", "sidebar", "sonner", "tooltip"],
+  "shadcnDeps": ["avatar", "button", "dropdown-menu", "input", "separator", "sheet", "sidebar", "skeleton", "sonner", "tooltip"],
   "defaultAssets": [
     "components/theme-provider@1.0.0",
     "components/mode-toggle@2.0.0",
