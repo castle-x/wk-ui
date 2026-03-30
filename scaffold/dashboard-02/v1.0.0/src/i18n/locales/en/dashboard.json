@@ -10,17 +10,21 @@
   },
   "pages": {
     "home": {
+      "title": "Home",
       "description": "Welcome to {{name}}. This is your dashboard home page.",
       "sayHello": {
         "title": "Say Hello API",
         "description": "Test the API connection by sending a greeting request.",
-        "button": "Say Hello",
-        "placeholder": "Click the button to test the API"
+        "send": "Send",
+        "loading": "Sending...",
+        "placeholder": "Enter your name"
       }
     },
     "settings": {
       "title": "Settings",
-      "description": "Application settings coming soon."
+      "description": "Application settings coming soon.",
+      "comingSoon": "Coming Soon",
+      "comingSoonDescription": "Settings are under development, stay tuned."
     }
   }
 }
