@@ -111,6 +111,14 @@
       }
     }
   },
+  "ui/sub-nav": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "path": "ui/sub-nav/v1.0.0"
+      }
+    }
+  },
   "ui/use-api-error": {
     "latest": "1.1.0",
     "versions": {

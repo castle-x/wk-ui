@@ -1,0 +1,14 @@
+{
+  "name": "sub-nav",
+  "version": "1.0.0",
+  "category": "ui",
+  "description": "Secondary navigation with grouped items, URL-driven active state, optional icons and badges.",
+  "deps": [
+    "@hugeicons/react",
+    "react-router"
+  ],
+  "files": [
+    "README.md",
+    "sub-nav.tsx"
+  ]
+}
